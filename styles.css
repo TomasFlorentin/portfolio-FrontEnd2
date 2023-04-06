@@ -18,7 +18,6 @@
 .nav-item a:hover{
     color: #fff;
 }
-/* Fin Links Navbar */
 
 /* Boton Login */
 .boton-login{
@@ -39,7 +38,6 @@
     color: #fff;
 }
 
-/* Fin Boton Login */
 /* Banner */
 body{
     height: 100vh;
@@ -47,8 +45,9 @@ body{
     background-image: url(/assets/img/Imagen\ Banner.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
-/* Fin Banner */
+
 /* Texto Bienvenida */
 section#inicio {
     height: calc(100vh - 60px);
@@ -66,8 +65,56 @@ section#inicio {
 }
 /* Fin Texto Bienvenida */
 
+/* Titulos */
+.titulos{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
 /* Conoceme */
 #conoceme{
-    background-color: black;
-    color: white;
+    background-color: #061214;
+    color: white;;
+
 }
+
+/* Experiencia */
+#experiencia{
+    background-color: #061214;
+    color: #fff;
+}
+
+/* Educación */
+#educacion{
+    background-color: #061214;
+}
+
+/* Habilidades */
+#habilidades{
+    background-color: #061214;
+}
+
+.box-habilidades{
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+.titulos-habilidades{
+    color: #fff;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/* Contacto */
+#contacto{
+    background-color: #061214;
+}
+
+
