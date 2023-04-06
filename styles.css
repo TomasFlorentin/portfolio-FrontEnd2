@@ -1,0 +1,73 @@
+/* Navbar */
+.bg-navbar {
+    background-color: #518614;
+    display: flex;
+    position: fixed;
+}
+
+
+/* Links Navbar */
+.nav-item a {
+    color: #d4d1d1;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-item a:hover{
+    color: #fff;
+}
+/* Fin Links Navbar */
+
+/* Boton Login */
+.boton-login{
+    margin-right: 10px;
+    background-color: #2657be;
+    color: #d4d1d1;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale .2 ease;
+    text-decoration: none;
+}
+
+.boton-login:hover{
+    scale: 1.05;
+    color: #fff;
+}
+
+/* Fin Boton Login */
+/* Banner */
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url(/assets/img/Imagen\ Banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* Fin Banner */
+/* Texto Bienvenida */
+section#inicio {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;   
+}
+
+#inicio h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+/* Fin Texto Bienvenida */
+
+/* Conoceme */
+#conoceme{
+    background-color: black;
+    color: white;
+}
